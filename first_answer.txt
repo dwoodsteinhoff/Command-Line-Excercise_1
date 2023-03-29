@@ -1,0 +1,80 @@
+Part 1
+
+darewood@DESKTOP-IJFC8JC:~$ ls
+Chickens  Code  TicTacToe  piglet.txt
+darewood@DESKTOP-IJFC8JC:~$ cd Code
+darewood@DESKTOP-IJFC8JC:~/Code$ ls
+Animals
+darewood@DESKTOP-IJFC8JC:~/Code$ mkdir first
+darewood@DESKTOP-IJFC8JC:~/Code$ cd first
+darewood@DESKTOP-IJFC8JC:~/Code/first$ touch person.txt
+darewood@DESKTOP-IJFC8JC:~/Code/first$ mv person.txt another.txt
+darewood@DESKTOP-IJFC8JC:~/Code/first$ ls
+another.txt
+darewood@DESKTOP-IJFC8JC:~/Code/first$ cp another.txt copy.txt
+darewood@DESKTOP-IJFC8JC:~/Code/first$ ls
+another.txt  copy.txt
+darewood@DESKTOP-IJFC8JC:~/Code/first$ rm copy.txt
+darewood@DESKTOP-IJFC8JC:~/Code/first$ cd ..
+darewood@DESKTOP-IJFC8JC:~/Code$ ls
+Animals  first
+darewood@DESKTOP-IJFC8JC:~/Code$ cp -r first second
+darewood@DESKTOP-IJFC8JC:~/Code$ ls
+Animals  first  second
+darewood@DESKTOP-IJFC8JC:~/Code$ rmdir second
+rmdir: failed to remove 'second': Directory not empty
+darewood@DESKTOP-IJFC8JC:~/Code$ rm -rf second
+darewood@DESKTOP-IJFC8JC:~/Code$ ls
+Animals  first
+darewood@DESKTOP-IJFC8JC:~/Code$
+
+Part 2
+
+
+1.What does the man command do? Type in man rm. How do you scroll and get out?
+
+Answer - man command stands for manual and will give you information about any command and how to use the command. 
+
+You scroll by pressing enter or the up and down arrow keys. You press q to get out.
+
+2. Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+
+Answer - the -l flag lists the contents in a list with metadata
+
+the -a flag stands for all and does not ignore entries with a "." in front of them.
+
+3. How do you jump between words in the terminal?
+
+answer - alt + left/right arrow keys
+
+4. How do you get to the end of a line in terminal?
+
+Answer - control + e.
+
+5. How do you move your cursor to the beginning in terminal?
+
+Answer - control + a.
+
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+
+Answer - control + w.
+
+7. What is the difference between a terminal and shell?
+
+Answer - A terminal runs the shell. A terminal is an application that gives us a command line interface to interact with the computer. A shell is a program which process commands and returns an output. 
+
+8. What is an absolute path?
+
+Answer - a path that starts from the root giving a complete route to the location of a file or folder
+
+9. What is an relative path?
+
+Answer - a path that starts from your current directory and not from the root.
+
+10. What is a flag? Give three examples of flags you have used.
+
+Answer -  a flag can change and enhance commands. -a, -l, -r, -f
+
+11. What do the r and f flags do with the rm command?
+
+Answer - they delete a directory and all of its contents.
